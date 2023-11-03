@@ -1,0 +1,61 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background:black; /* Set the background color to a dark color */
+}
+
+.calculator {
+  width: 300px;
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  
+ /* Set the background of the calculator body to a darker shade */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 19px 38px rgba(247, 8, 8, 0.3), 0 15px 12px rgba(249, 2, 2, 0.12);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-size: 24px;
+}
+
+.display {
+  background:black; /* Darker background for the display */
+  color: white;
+  width: 100%;
+  padding: 10px;
+  font-size: 36px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  grid-gap: 10px;
+}
+
+button {
+  background-color: #FF3CAC;
+background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+ /* Blue background for buttons */
+  color: white;
+  font-size: 24px;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #000000; /* Slightly darker blue on hover */
+}
+
+
+
+
